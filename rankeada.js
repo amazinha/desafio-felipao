@@ -23,7 +23,7 @@ switch (true) {
     case pontuacao <= 100:
         nivel = "lendario";
         break;
-    default:
+    case pontuacao >100:
         nivel = "imortal";
         break;
 }
